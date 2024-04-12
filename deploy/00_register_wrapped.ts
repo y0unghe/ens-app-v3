@@ -12,7 +12,7 @@ import {
   makeRegistrationTuple,
   RecordOptions,
   RegistrationParameters,
-} from '@ensdomains/ensjs/utils'
+} from '@y0unghe/ens.js/utils'
 
 import { nonceManager } from './.utils/nonceManager'
 

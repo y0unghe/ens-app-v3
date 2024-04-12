@@ -3,14 +3,14 @@ import { ComponentProps } from 'react'
 import type { TFunction } from 'react-i18next'
 import type { Account, Address, Client, Hex, TransactionReceipt, Transport } from 'viem'
 
-import { GetRecordsReturnType } from '@ensdomains/ensjs/public'
-import { GetSubgraphRecordsReturnType } from '@ensdomains/ensjs/subgraph'
+import { GetRecordsReturnType } from '@y0unghe/ens.js/public'
+import { GetSubgraphRecordsReturnType } from '@y0unghe/ens.js/subgraph'
 import {
   ChildFuseReferenceType,
   ChildFuses,
   ParentFuseReferenceType,
   ParentFuses,
-} from '@ensdomains/ensjs/utils'
+} from '@y0unghe/ens.js/utils'
 import { Helper, Space } from '@ensdomains/thorin'
 
 import { SupportedChain } from '@app/constants/chains'

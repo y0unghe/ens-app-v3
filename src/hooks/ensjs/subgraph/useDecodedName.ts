@@ -5,8 +5,8 @@ import {
   getDecodedName,
   GetDecodedNameParameters,
   GetDecodedNameReturnType,
-} from '@ensdomains/ensjs/subgraph'
-import { checkIsDecrypted } from '@ensdomains/ensjs/utils'
+} from '@y0unghe/ens.js/subgraph'
+import { checkIsDecrypted } from '@y0unghe/ens.js/utils'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns, CreateQueryKey, PartialBy, QueryConfig } from '@app/types'

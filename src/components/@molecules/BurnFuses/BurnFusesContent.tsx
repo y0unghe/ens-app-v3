@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { ChildFuseKeys, ChildFuseReferenceType } from '@ensdomains/ensjs/utils'
+import { ChildFuseKeys, ChildFuseReferenceType } from '@y0unghe/ens.js/utils'
 import { Button, FlameSVG, Helper, mq, Typography } from '@ensdomains/thorin'
 
 import { Spacer } from '@app/components/@atoms/Spacer'

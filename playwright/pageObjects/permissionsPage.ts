@@ -3,7 +3,7 @@
 /* eslint-disable no-await-in-loop */
 import { Locator, Page } from '@playwright/test'
 
-import { ChildFuses as ChildFuses_, ParentFuses as ParentFuses_ } from '@ensdomains/ensjs/utils'
+import { ChildFuses as ChildFuses_, ParentFuses as ParentFuses_ } from '@y0unghe/ens.js/utils'
 
 type ChildFuses = keyof ChildFuses_
 type ParentFuses = keyof ParentFuses_

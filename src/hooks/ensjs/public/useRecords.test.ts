@@ -3,7 +3,7 @@ import { renderHook, waitFor } from '@app/test-utils'
 import { Query, useQueryClient } from '@tanstack/react-query'
 import { describe, expect, it, vi } from 'vitest'
 
-import { getRecords } from '@ensdomains/ensjs/public'
+import { getRecords } from '@y0unghe/ens.js/public'
 
 import { createQueryKey, QueryKeyConfig, useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns } from '@app/types'
@@ -178,7 +178,7 @@ vi.mock('@app/hooks/useQueryOptions', async (importOriginal) => {
     useQueryOptions: vi.fn(),
   }
 })
-vi.mock('@ensdomains/ensjs/public')
+vi.mock('@y0unghe/ens.js/public')
 
 const mockGetRecords = vi.mocked(getRecords)
 

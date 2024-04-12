@@ -1,6 +1,6 @@
 import { QueryFunctionContext, queryOptions, useQuery } from '@tanstack/react-query'
 
-import { getSubnames, Name } from '@ensdomains/ensjs/subgraph'
+import { getSubnames, Name } from '@y0unghe/ens.js/subgraph'
 
 import { ConfigWithEns, CreateQueryKey } from '@app/types'
 import { getIsCachedData } from '@app/utils/getIsCachedData'

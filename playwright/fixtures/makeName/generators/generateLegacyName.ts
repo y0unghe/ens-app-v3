@@ -6,7 +6,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 /* eslint-disable no-await-in-loop */
-import { transferName } from '@ensdomains/ensjs/wallet'
+import { transferName } from '@y0unghe/ens.js/wallet'
 
 import { Accounts, createAccounts, User } from '../../accounts'
 import { Contracts } from '../../contracts'

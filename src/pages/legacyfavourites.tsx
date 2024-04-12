@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 import { match, P } from 'ts-pattern'
 import { useChainId } from 'wagmi'
 
-import { truncateFormat } from '@ensdomains/ensjs/utils'
+import { truncateFormat } from '@y0unghe/ens.js/utils'
 import { Helper, Typography } from '@ensdomains/thorin'
 
 import { TaggedNameItem } from '@app/components/@atoms/NameDetailItem/TaggedNameItem'

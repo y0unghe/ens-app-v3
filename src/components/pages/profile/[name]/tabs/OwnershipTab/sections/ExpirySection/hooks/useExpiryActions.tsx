@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { useAccount } from 'wagmi'
 
-import { GetOwnerReturnType, GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType, GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 import { CalendarSVG, FastForwardSVG } from '@ensdomains/thorin'
 
 import { useTransactionFlow } from '@app/transaction-flow/TransactionFlowProvider'

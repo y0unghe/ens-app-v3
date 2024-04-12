@@ -1,8 +1,8 @@
 import { expect } from '@playwright/test'
 import { labelhash } from 'viem'
 
-import { getResolver } from '@ensdomains/ensjs/public'
-import { setPrimaryName } from '@ensdomains/ensjs/wallet'
+import { getResolver } from '@y0unghe/ens.js/public'
+import { setPrimaryName } from '@y0unghe/ens.js/wallet'
 
 import { test } from '../../../playwright'
 import { createAccounts } from '../../../playwright/fixtures/accounts'

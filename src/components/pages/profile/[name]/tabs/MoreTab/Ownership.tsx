@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { GetDnsOwnerReturnType } from '@ensdomains/ensjs/dns'
+import { GetDnsOwnerReturnType } from '@y0unghe/ens.js/dns'
 import { Button, Helper, mq, Tag, Typography } from '@ensdomains/thorin'
 
 import AeroplaneSVG from '@app/assets/Aeroplane.svg'

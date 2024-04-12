@@ -1,5 +1,5 @@
-import { BaseError } from '@ensdomains/ensjs'
-import { encodeContentHash, getProtocolType } from '@ensdomains/ensjs/utils'
+import { BaseError } from '@y0unghe/ens.js'
+import { encodeContentHash, getProtocolType } from '@y0unghe/ens.js/utils'
 
 import { ContentHashProvider } from '@app/utils/contenthash'
 

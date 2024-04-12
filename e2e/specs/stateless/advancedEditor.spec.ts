@@ -1,6 +1,6 @@
 import { expect } from '@playwright/test'
 
-import { encodeAbi } from '@ensdomains/ensjs/utils'
+import { encodeAbi } from '@y0unghe/ens.js/utils'
 
 import { test } from '../../../playwright'
 

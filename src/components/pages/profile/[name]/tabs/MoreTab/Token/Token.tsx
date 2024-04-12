@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 import { match, P } from 'ts-pattern'
 import { labelhash, namehash } from 'viem'
 
-import { GetOwnerReturnType, GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType, GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 import { mq, Tag, Typography } from '@ensdomains/thorin'
 
 import { CacheableComponent } from '@app/components/@atoms/CacheableComponent'

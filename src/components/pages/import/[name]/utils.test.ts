@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { GetDnsImportDataReturnType } from '@ensdomains/ensjs/dns'
+import { GetDnsImportDataReturnType } from '@y0unghe/ens.js/dns'
 
 import { createImportTransactionRequests } from './utils'
 

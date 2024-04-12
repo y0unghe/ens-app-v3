@@ -1,7 +1,7 @@
 import { toBytes, type Address } from 'viem'
 
-import { Eth2ldName } from '@ensdomains/ensjs/dist/types/types'
-import { DecodedFuses } from '@ensdomains/ensjs/utils'
+import { Eth2ldName } from '@y0unghe/ens.js/dist/types/types'
+import { DecodedFuses } from '@y0unghe/ens.js/utils'
 
 import { KNOWN_RESOLVER_DATA } from '@app/constants/resolverAddressData'
 

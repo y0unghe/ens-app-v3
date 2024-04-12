@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Hex } from 'viem'
 
-import { GetRecordsReturnType } from '@ensdomains/ensjs/public'
+import { GetRecordsReturnType } from '@y0unghe/ens.js/public'
 
 import { usePrimaryName } from './ensjs/public/usePrimaryName'
 import { useProfile } from './useProfile'

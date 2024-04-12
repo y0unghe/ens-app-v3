@@ -1,8 +1,8 @@
 import type { TFunction } from 'react-i18next'
 
-import { getPrice } from '@ensdomains/ensjs/public'
-import { RegistrationParameters } from '@ensdomains/ensjs/utils'
-import { registerName } from '@ensdomains/ensjs/wallet'
+import { getPrice } from '@y0unghe/ens.js/public'
+import { RegistrationParameters } from '@y0unghe/ens.js/utils'
+import { registerName } from '@y0unghe/ens.js/wallet'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 import { calculateValueWithBuffer, secondsToYears } from '@app/utils/utils'

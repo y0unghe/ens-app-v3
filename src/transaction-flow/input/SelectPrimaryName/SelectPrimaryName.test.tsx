@@ -3,8 +3,8 @@ import { mockFunction, render, screen, userEvent, waitFor } from '@app/test-util
 import { labelhash } from 'viem'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { getDecodedName } from '@ensdomains/ensjs/subgraph'
-import { decodeLabelhash } from '@ensdomains/ensjs/utils'
+import { getDecodedName } from '@y0unghe/ens.js/subgraph'
+import { decodeLabelhash } from '@y0unghe/ens.js/utils'
 
 import { useNamesForAddress } from '@app/hooks/ensjs/subgraph/useNamesForAddress'
 import { useGetPrimaryNameTransactionFlowItem } from '@app/hooks/primary/useGetPrimaryNameTransactionFlowItem'
@@ -31,7 +31,7 @@ vi.mock('@app/components/@atoms/NameDetailItem/TaggedNameItem', () => ({
   TaggedNameItem: ({ name, ...props }: any) => <div {...props}>{name}</div>,
 }))
 
-vi.mock('@ensdomains/ensjs/subgraph')
+vi.mock('@y0unghe/ens.js/subgraph')
 
 vi.mock('@app/hooks/ensjs/subgraph/useNamesForAddress')
 vi.mock('@app/hooks/resolver/useResolverStatus')

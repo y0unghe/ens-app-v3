@@ -5,8 +5,8 @@ import { useClient, useReadContract } from 'wagmi'
 import {
   getChainContractAddress,
   universalResolverResolveSnippet,
-} from '@ensdomains/ensjs/contracts'
-import { packetToBytes } from '@ensdomains/ensjs/utils'
+} from '@y0unghe/ens.js/contracts'
+import { packetToBytes } from '@y0unghe/ens.js/utils'
 
 import { QueryConfig } from '@app/types'
 

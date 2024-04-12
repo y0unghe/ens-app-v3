@@ -1,7 +1,7 @@
 import type { TFunction } from 'i18next'
 import { Address } from 'viem'
 
-import { setRecords } from '@ensdomains/ensjs/wallet'
+import { setRecords } from '@y0unghe/ens.js/wallet'
 
 import {
   getProfileRecordsDiff,

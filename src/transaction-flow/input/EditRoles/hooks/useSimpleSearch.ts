@@ -3,8 +3,8 @@ import { useEffect } from 'react'
 import { Address, isAddress } from 'viem'
 import { useChainId, useConfig } from 'wagmi'
 
-import { getAddressRecord, getName } from '@ensdomains/ensjs/public'
-import { normalise } from '@ensdomains/ensjs/utils'
+import { getAddressRecord, getName } from '@y0unghe/ens.js/public'
+import { normalise } from '@y0unghe/ens.js/utils'
 
 import useDebouncedCallback from '@app/hooks/useDebouncedCallback'
 import { ClientWithEns } from '@app/types'

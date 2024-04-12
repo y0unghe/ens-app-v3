@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import type { Address } from 'viem'
 
-import { Name } from '@ensdomains/ensjs/subgraph'
+import { Name } from '@y0unghe/ens.js/subgraph'
 import { Button, Spinner } from '@ensdomains/thorin'
 
 import FastForwardSVG from '@app/assets/FastForward.svg'

@@ -9,7 +9,7 @@ import {
   ChildFuseReferenceType,
   ParentFuseKeys,
   ParentFuseReferenceType,
-} from '@ensdomains/ensjs/utils'
+} from '@y0unghe/ens.js/utils'
 import { Button, Dialog, mq } from '@ensdomains/thorin'
 
 import { createTransactionItem } from '@app/transaction-flow/transaction'

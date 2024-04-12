@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 
-import { GetOwnerReturnType, GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType, GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { useContractAddress } from '../chain/useContractAddress'
 

@@ -9,9 +9,9 @@ import { Address, BlockTag, GetBlockParameters, GetBlockReturnType } from 'viem'
 import { getBlock } from 'viem/actions'
 import { useAccount, useClient } from 'wagmi'
 
-import { ChainWithEns } from '@ensdomains/ensjs/contracts'
-import { GetNameHistoryReturnType } from '@ensdomains/ensjs/subgraph'
-import { ChildFuseKeys, decodeFuses, ParentFuseKeys } from '@ensdomains/ensjs/utils'
+import { ChainWithEns } from '@y0unghe/ens.js/contracts'
+import { GetNameHistoryReturnType } from '@y0unghe/ens.js/subgraph'
+import { ChildFuseKeys, decodeFuses, ParentFuseKeys } from '@y0unghe/ens.js/utils'
 
 import { AnyFuseKey, ClientWithEns, CreateQueryKey } from '@app/types'
 

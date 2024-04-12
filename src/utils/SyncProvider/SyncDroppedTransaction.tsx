@@ -13,6 +13,7 @@ import type {
 import { useTransactionStore } from '@app/hooks/transactions/TransactionStoreContext'
 import { useRecentTransactions } from '@app/hooks/transactions/useRecentTransactions'
 import { ClientWithEns } from '@app/types'
+import { sepolia } from 'viem/chains'
 
 const TRANSACTION_SEARCH_INTERVAL = 10000
 
@@ -210,7 +211,7 @@ export const findDroppedTransactions = async (
 }
 
 export const SyncDroppedTransaction = ({ children }: { children: React.ReactNode }) => {
-  const client = useClient()
+  const client = useClient({chainId: sepolia.id})
   const { address } = useAccountSafely()
   const transactions = useRecentTransactions()
   const store = useTransactionStore()

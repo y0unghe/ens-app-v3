@@ -3,7 +3,7 @@ import { mockFunction, render } from '@app/test-utils'
 import { ReactNode } from 'react'
 import { describe, expect, it, vi } from 'vitest'
 
-import { decodeFuses, encodeFuses } from '@ensdomains/ensjs/utils'
+import { decodeFuses, encodeFuses } from '@y0unghe/ens.js/utils'
 
 import { NameDetailItem } from './NameDetailItem'
 import { TaggedNameItem } from './TaggedNameItem'

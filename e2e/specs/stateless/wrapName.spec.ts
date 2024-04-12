@@ -1,7 +1,7 @@
 import { expect } from '@playwright/test'
 import { labelhash } from 'viem'
 
-import { registrySetApprovalForAllSnippet } from '@ensdomains/ensjs/contracts'
+import { registrySetApprovalForAllSnippet } from '@y0unghe/ens.js/contracts'
 
 import { test } from '../../../playwright'
 import { createAccounts } from '../../../playwright/fixtures/accounts'

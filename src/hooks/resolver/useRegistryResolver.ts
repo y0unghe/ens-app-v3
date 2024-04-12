@@ -1,7 +1,7 @@
 import { namehash } from 'viem'
 import { useClient, useReadContract } from 'wagmi'
 
-import { getChainContractAddress, registryResolverSnippet } from '@ensdomains/ensjs/contracts'
+import { getChainContractAddress, registryResolverSnippet } from '@y0unghe/ens.js/contracts'
 
 type UseRegistryResolverParameters = {
   name: string

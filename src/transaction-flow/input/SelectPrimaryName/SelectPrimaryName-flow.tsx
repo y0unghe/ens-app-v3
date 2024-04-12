@@ -6,8 +6,8 @@ import styled, { css } from 'styled-components'
 import { Address, labelhash } from 'viem'
 import { useClient } from 'wagmi'
 
-import { getDecodedName, Name } from '@ensdomains/ensjs/subgraph'
-import { decodeLabelhash, isEncodedLabelhash, saveName } from '@ensdomains/ensjs/utils'
+import { getDecodedName, Name } from '@y0unghe/ens.js/subgraph'
+import { decodeLabelhash, isEncodedLabelhash, saveName } from '@y0unghe/ens.js/utils'
 import { Button, Dialog, Heading, mq, Typography } from '@ensdomains/thorin'
 
 import { InnerDialog } from '@app/components/@atoms/InnerDialog'

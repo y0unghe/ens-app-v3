@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { getAddress } from 'viem'
 
-import { truncateFormat } from '@ensdomains/ensjs/utils'
+import { truncateFormat } from '@y0unghe/ens.js/utils'
 
 import { getRegistrationStatus } from '@app/utils/registrationStatus'
 import { isLabelTooLong, yearsToSeconds } from '@app/utils/utils'

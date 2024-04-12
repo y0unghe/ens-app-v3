@@ -1,7 +1,7 @@
 import { Trans, useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 import { Banner } from '@ensdomains/thorin'
 
 import BaseLink from '@app/components/@atoms/BaseLink'

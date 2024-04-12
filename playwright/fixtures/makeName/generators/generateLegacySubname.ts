@@ -4,9 +4,9 @@
 import {
   getChainContractAddress,
   registrySetApprovalForAllSnippet,
-} from '@ensdomains/ensjs/contracts'
-import { RecordOptions } from '@ensdomains/ensjs/utils'
-import { createSubname, wrapName } from '@ensdomains/ensjs/wallet'
+} from '@y0unghe/ens.js/contracts'
+import { RecordOptions } from '@y0unghe/ens.js/utils'
+import { createSubname, wrapName } from '@y0unghe/ens.js/wallet'
 
 import { Accounts, createAccounts, User } from '../../accounts'
 import { Contracts } from '../../contracts'

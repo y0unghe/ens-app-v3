@@ -2,8 +2,8 @@ import { TFunction } from 'i18next'
 import { match, P } from 'ts-pattern'
 import type { Address } from 'viem'
 
-import { RecordOptions } from '@ensdomains/ensjs/utils'
-import { setRecords } from '@ensdomains/ensjs/wallet'
+import { RecordOptions } from '@y0unghe/ens.js/utils'
+import { setRecords } from '@y0unghe/ens.js/wallet'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 import { recordOptionsToToupleList } from '@app/utils/records'

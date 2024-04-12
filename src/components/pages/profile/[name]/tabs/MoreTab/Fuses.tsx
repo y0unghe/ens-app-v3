@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { UserSettableFuses } from '@ensdomains/ensjs/utils'
+import { UserSettableFuses } from '@y0unghe/ens.js/utils'
 import { Helper, mq, Typography } from '@ensdomains/thorin'
 
 import { cacheableComponentStyles } from '@app/components/@atoms/CacheableComponent'

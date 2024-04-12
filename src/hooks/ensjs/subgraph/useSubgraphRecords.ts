@@ -4,7 +4,7 @@ import {
   getSubgraphRecords,
   GetSubgraphRecordsParameters,
   GetSubgraphRecordsReturnType,
-} from '@ensdomains/ensjs/subgraph'
+} from '@y0unghe/ens.js/subgraph'
 
 import { usePrefetchQuery } from '@app/hooks/usePrefetchQuery'
 import { useQueryOptions } from '@app/hooks/useQueryOptions'

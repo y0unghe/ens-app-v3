@@ -1,6 +1,6 @@
 import type { TFunction } from 'react-i18next'
 
-import { unwrapName } from '@ensdomains/ensjs/wallet'
+import { unwrapName } from '@y0unghe/ens.js/wallet'
 
 import type { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 import { checkETH2LDFromName } from '@app/utils/utils'

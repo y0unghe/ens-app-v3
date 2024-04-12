@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { useBasicName } from '@app/hooks/useBasicName'
 import { DeepPartial } from '@app/types'

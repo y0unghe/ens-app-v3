@@ -1,6 +1,6 @@
 import { useChainId } from 'wagmi'
 
-import { randomSecret } from '@ensdomains/ensjs/utils'
+import { randomSecret } from '@y0unghe/ens.js/utils'
 
 import { childFuseObj } from '@app/components/@molecules/BurnFuses/BurnFusesContent'
 import {

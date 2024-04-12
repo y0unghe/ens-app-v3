@@ -13,9 +13,11 @@ export const getSupportedChainContractAddress = <
   client: ClientWithEns
   contract: TContract
   blockNumber?: bigint
-}) =>
-  getChainContractAddress({
+}) => {
+  console.log(`getSupportedChainContractAddress`, client.chain, contract)
+  return getChainContractAddress({
     chain: client.chain,
     contract,
     blockNumber,
   }) as TContractObject['address']
+}

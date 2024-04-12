@@ -1,6 +1,6 @@
 import { BaseError, decodeErrorResult, RawContractError } from 'viem'
 
-import { ethRegistrarControllerErrors, nameWrapperErrors } from '@ensdomains/ensjs/contracts'
+import { ethRegistrarControllerErrors, nameWrapperErrors } from '@y0unghe/ens.js/contracts'
 
 export const getViemRevertErrorData = (err: unknown) => {
   if (!(err instanceof BaseError)) return undefined

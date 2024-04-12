@@ -5,7 +5,7 @@ import {
   DecodedContentHash,
   encodeAbi,
   RecordOptions,
-} from '@ensdomains/ensjs/utils'
+} from '@y0unghe/ens.js/utils'
 
 import { AddressRecord, Profile, TextRecord } from '@app/types'
 

@@ -1,7 +1,7 @@
 import type { TFunction } from 'react-i18next'
 import { Address, encodeFunctionData } from 'viem'
 
-import { getChainContractAddress } from '@ensdomains/ensjs/contracts'
+import { getChainContractAddress } from '@y0unghe/ens.js/contracts'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

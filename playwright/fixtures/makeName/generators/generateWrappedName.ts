@@ -1,13 +1,13 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 /* eslint-disable no-await-in-loop */
-import { getPrice } from '@ensdomains/ensjs/public'
+import { getPrice } from '@y0unghe/ens.js/public'
 import {
   EncodeChildFusesInputObject,
   RecordOptions,
   RegistrationParameters,
-} from '@ensdomains/ensjs/utils'
-import { commitName, registerName, setResolver } from '@ensdomains/ensjs/wallet'
+} from '@y0unghe/ens.js/utils'
+import { commitName, registerName, setResolver } from '@y0unghe/ens.js/wallet'
 
 import { Accounts, createAccounts, User } from '../../accounts'
 import { Contracts } from '../../contracts'

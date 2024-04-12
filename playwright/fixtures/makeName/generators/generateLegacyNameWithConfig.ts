@@ -2,8 +2,8 @@
 
 /* eslint-disable no-await-in-loop */
 
-import { RecordOptions } from '@ensdomains/ensjs/utils'
-import { setResolver, transferName } from '@ensdomains/ensjs/wallet'
+import { RecordOptions } from '@y0unghe/ens.js/utils'
+import { setResolver, transferName } from '@y0unghe/ens.js/wallet'
 
 import { Accounts, createAccounts, User } from '../../accounts'
 import { Contracts } from '../../contracts'

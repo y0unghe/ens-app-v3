@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { GetOwnerReturnType, GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType, GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { checkAvailablePrimaryName } from './checkAvailablePrimaryName'
 

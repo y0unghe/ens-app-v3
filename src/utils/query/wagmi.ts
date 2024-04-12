@@ -13,8 +13,6 @@ import {
 import { WC_PROJECT_ID } from '../constants'
 import { getDefaultWallets } from '../getDefaultWallets'
 
-const isLocalProvider = !!process.env.NEXT_PUBLIC_PROVIDER
-
 const connectors = getDefaultWallets({
   appName: 'ENS',
   projectId: WC_PROJECT_ID,
@@ -79,7 +77,6 @@ const localStorageWithInvertMiddleware = (): Storage | undefined => {
 }
 
 const chains = [
-  ...(isLocalProvider ? ([localhostWithEns] as const) : ([] as const)),
   mainnetWithEns,
   goerliWithEns,
   sepoliaWithEns,
@@ -99,14 +96,6 @@ const wagmiConfig_ = createConfig({
   storage: createStorage({ storage: localStorageWithInvertMiddleware(), key: prefix }),
   chains,
   transports: {
-    ...(isLocalProvider
-      ? ({
-          [localhost.id]: http(process.env.NEXT_PUBLIC_PROVIDER!) as unknown as FallbackTransport,
-        } as const)
-      : ({} as unknown as {
-          // this is a hack to make the types happy, dont remove pls
-          [localhost.id]: HttpTransport
-        })),
     [mainnet.id]: initialiseTransports('mainnet', [infuraUrl, cloudflareUrl, tenderlyUrl]),
     [sepolia.id]: initialiseTransports('sepolia', [infuraUrl, cloudflareUrl, tenderlyUrl]),
     [goerli.id]: initialiseTransports('goerli', [infuraUrl, cloudflareUrl, tenderlyUrl]),

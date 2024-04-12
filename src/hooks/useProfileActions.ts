@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { checkIsDecrypted } from '@ensdomains/ensjs/utils'
+import { checkIsDecrypted } from '@y0unghe/ens.js/utils'
 
 import { makeIntroItem } from '@app/transaction-flow/intro'
 import { createTransactionItem } from '@app/transaction-flow/transaction'

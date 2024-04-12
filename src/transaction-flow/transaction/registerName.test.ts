@@ -2,13 +2,13 @@ import { mockFunction } from '@app/test-utils'
 
 import { expect, it, vi } from 'vitest'
 
-import { getPrice } from '@ensdomains/ensjs/public'
-import { registerName } from '@ensdomains/ensjs/wallet'
+import { getPrice } from '@y0unghe/ens.js/public'
+import { registerName } from '@y0unghe/ens.js/wallet'
 
 import registerNameFlowTransaction from './registerName'
 
-vi.mock('@ensdomains/ensjs/public')
-vi.mock('@ensdomains/ensjs/wallet')
+vi.mock('@y0unghe/ens.js/public')
+vi.mock('@y0unghe/ens.js/wallet')
 
 const mockGetPrice = mockFunction(getPrice)
 const mockRegisterName = mockFunction(registerName.makeFunctionData)

@@ -2,8 +2,8 @@ import { mockFunction, renderHook, waitFor } from '@app/test-utils'
 
 import { beforeEach, expect, it, vi } from 'vitest'
 
-import { GetRecordsReturnType } from '@ensdomains/ensjs/public'
-import { GetSubgraphRecordsReturnType } from '@ensdomains/ensjs/subgraph'
+import { GetRecordsReturnType } from '@y0unghe/ens.js/public'
+import { GetSubgraphRecordsReturnType } from '@y0unghe/ens.js/subgraph'
 
 import { createDateAndValue } from '@app/utils/utils'
 

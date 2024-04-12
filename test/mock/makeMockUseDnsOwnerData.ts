@@ -1,7 +1,7 @@
 import { match, P } from 'ts-pattern'
 import { Address } from 'viem'
 
-import { GetDnsOwnerReturnType } from '@ensdomains/ensjs/dns'
+import { GetDnsOwnerReturnType } from '@y0unghe/ens.js/dns'
 
 import { createAccounts } from '../../playwright/fixtures/accounts'
 

@@ -2,8 +2,8 @@
 
 /* eslint-disable no-await-in-loop */
 // import { toUtf8Bytes } from '@ethersproject/strings/lib/utf8'
-import { RecordOptions } from '@ensdomains/ensjs/utils'
-import { setRecords } from '@ensdomains/ensjs/wallet'
+import { RecordOptions } from '@y0unghe/ens.js/utils'
+import { setRecords } from '@y0unghe/ens.js/wallet'
 
 import { createAccounts, User } from '../../accounts'
 import { waitForTransaction, walletClient } from '../../contracts/utils/addTestContracts.js'

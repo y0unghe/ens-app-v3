@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-import { GetOwnerReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType } from '@y0unghe/ens.js/public'
 
 import { useAccountSafely } from '@app/hooks/account/useAccountSafely'
 import { NameWrapperState } from '@app/hooks/fuses/useFusesStates'

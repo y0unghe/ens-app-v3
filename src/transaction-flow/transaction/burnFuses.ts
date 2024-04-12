@@ -1,7 +1,7 @@
 import type { TFunction } from 'react-i18next'
 
-import { EncodeChildFusesInputObject } from '@ensdomains/ensjs/utils'
-import { setFuses } from '@ensdomains/ensjs/wallet'
+import { EncodeChildFusesInputObject } from '@y0unghe/ens.js/utils'
+import { setFuses } from '@y0unghe/ens.js/wallet'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

@@ -1,7 +1,7 @@
 import type { TFunction } from 'react-i18next'
 import { Address } from 'viem'
 
-import { GetDnsImportDataReturnType, importDnsName } from '@ensdomains/ensjs/dns'
+import { GetDnsImportDataReturnType, importDnsName } from '@y0unghe/ens.js/dns'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

@@ -1,8 +1,8 @@
 import type { TFunction } from 'i18next'
 import type { Address } from 'viem'
 
-import type { RecordOptions } from '@ensdomains/ensjs/utils'
-import { setRecords } from '@ensdomains/ensjs/wallet'
+import type { RecordOptions } from '@y0unghe/ens.js/utils'
+import { setRecords } from '@y0unghe/ens.js/wallet'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

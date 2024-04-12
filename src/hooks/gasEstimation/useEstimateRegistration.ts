@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { parseEther } from 'viem'
 
-import { makeCommitment } from '@ensdomains/ensjs/utils'
+import { makeCommitment } from '@y0unghe/ens.js/utils'
 
 import { RegistrationReducerDataItem } from '@app/components/pages/profile/[name]/registration/types'
 
@@ -36,6 +36,8 @@ export const useEstimateFullRegistration = ({
   const ethRegistrarControllerAddress = useContractAddress({
     contract: 'ensEthRegistrarController',
   })
+
+  console.log(`ethRegistrarControllerAddress: ${ethRegistrarControllerAddress}`)
 
   const commitment = useMemo(() => makeCommitment(registrationParams), [registrationParams])
 

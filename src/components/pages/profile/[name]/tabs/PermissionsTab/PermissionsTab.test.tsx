@@ -2,7 +2,7 @@ import { mockFunction, render, screen } from '@app/test-utils'
 
 import { describe, expect, it, vi } from 'vitest'
 
-import { GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { useAccountSafely } from '@app/hooks/account/useAccountSafely'
 import { useFusesSetDates } from '@app/hooks/fuses/useFusesSetDates'

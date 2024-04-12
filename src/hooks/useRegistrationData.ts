@@ -1,7 +1,7 @@
 import { QueryFunctionContext, useQuery } from '@tanstack/react-query'
 import { labelhash } from 'viem'
 
-import { createSubgraphClient } from '@ensdomains/ensjs/subgraph'
+import { createSubgraphClient } from '@y0unghe/ens.js/subgraph'
 
 import { ConfigWithEns, CreateQueryKey, QueryConfig } from '@app/types'
 import { getIsCachedData } from '@app/utils/getIsCachedData'

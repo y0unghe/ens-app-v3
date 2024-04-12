@@ -1,6 +1,6 @@
 import { match, P } from 'ts-pattern'
 
-import { GetPriceReturnType } from '@ensdomains/ensjs/public'
+import { GetPriceReturnType } from '@y0unghe/ens.js/public'
 
 const mockUsePriceTypes = ['tld', 'base', 'premium'] as const
 export type MockUsePriceType = (typeof mockUsePriceTypes)[number] | undefined

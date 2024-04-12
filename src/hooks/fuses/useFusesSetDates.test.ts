@@ -4,8 +4,8 @@ import { getBlock } from 'viem/actions'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { useAccount, useClient } from 'wagmi'
 
-import { GetNameHistoryReturnType } from '@ensdomains/ensjs/subgraph'
-import { encodeFuses } from '@ensdomains/ensjs/utils'
+import { GetNameHistoryReturnType } from '@y0unghe/ens.js/subgraph'
+import { encodeFuses } from '@y0unghe/ens.js/utils'
 
 import { ClientWithEns } from '@app/types'
 

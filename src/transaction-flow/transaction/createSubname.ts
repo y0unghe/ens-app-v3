@@ -1,6 +1,6 @@
 import type { TFunction } from 'react-i18next'
 
-import { createSubname } from '@ensdomains/ensjs/wallet'
+import { createSubname } from '@y0unghe/ens.js/wallet'
 
 import type { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

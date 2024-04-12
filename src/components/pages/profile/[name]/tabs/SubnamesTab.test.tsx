@@ -4,7 +4,7 @@ import { labelhash, namehash } from 'viem'
 import { beforeAll, describe, expect, it, vi } from 'vitest'
 import { useAccount, useEnsAvatar } from 'wagmi'
 
-import { Name } from '@ensdomains/ensjs/subgraph'
+import { Name } from '@y0unghe/ens.js/subgraph'
 
 import { useSubnames } from '@app/hooks/ensjs/subgraph/useSubnames'
 import { useZorb } from '@app/hooks/useZorb'

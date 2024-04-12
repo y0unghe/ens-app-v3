@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { NameWithRelation } from '@ensdomains/ensjs/subgraph'
+import { NameWithRelation } from '@y0unghe/ens.js/subgraph'
 import { mq, Tag } from '@ensdomains/thorin'
 
 import { validateExpiry } from '@app/utils/utils'

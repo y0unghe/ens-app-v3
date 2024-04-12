@@ -1,7 +1,7 @@
 import type { TFunction } from 'react-i18next'
 
-import { getPrice } from '@ensdomains/ensjs/public'
-import { renewNames } from '@ensdomains/ensjs/wallet'
+import { getPrice } from '@y0unghe/ens.js/public'
+import { renewNames } from '@y0unghe/ens.js/wallet'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 import { makeDisplay } from '@app/utils/currency'

@@ -5,7 +5,7 @@ import {
   getSubnames,
   GetSubnamesParameters,
   GetSubnamesReturnType,
-} from '@ensdomains/ensjs/subgraph'
+} from '@y0unghe/ens.js/subgraph'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns, CreateQueryKey, InfiniteQueryConfig, PartialBy } from '@app/types'

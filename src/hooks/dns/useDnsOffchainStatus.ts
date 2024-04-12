@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import type { Address } from 'viem'
 import { useAccount, useChainId } from 'wagmi'
 
-import { GetDnsOffchainDataReturnType } from '@ensdomains/ensjs/dns'
+import { GetDnsOffchainDataReturnType } from '@y0unghe/ens.js/dns'
 
 import { checkDnsAddressMatch, checkDnsError } from '@app/components/pages/import/[name]/utils'
 import { EXTENDED_DNS_RESOLVER_MAP } from '@app/constants/resolverAddressData'

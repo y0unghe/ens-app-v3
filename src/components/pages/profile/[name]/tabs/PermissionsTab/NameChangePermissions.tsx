@@ -2,8 +2,8 @@ import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
-import { ChildFuseKeys, ChildFuseReferenceType } from '@ensdomains/ensjs/utils'
+import { GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
+import { ChildFuseKeys, ChildFuseReferenceType } from '@y0unghe/ens.js/utils'
 import { Button, Typography } from '@ensdomains/thorin'
 
 import type { useFusesSetDates } from '@app/hooks/fuses/useFusesSetDates'

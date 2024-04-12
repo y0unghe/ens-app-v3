@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 
-import { GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { useAccountSafely } from '@app/hooks/account/useAccountSafely'
 

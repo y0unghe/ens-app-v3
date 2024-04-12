@@ -5,7 +5,7 @@ import {
   getSupportedInterfaces,
   GetSupportedInterfacesParameters,
   GetSupportedInterfacesReturnType,
-} from '@ensdomains/ensjs/public'
+} from '@y0unghe/ens.js/public'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns, CreateQueryKey, PartialBy, QueryConfig } from '@app/types'

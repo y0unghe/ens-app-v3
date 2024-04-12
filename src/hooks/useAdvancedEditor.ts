@@ -5,7 +5,7 @@ import { match, P } from 'ts-pattern'
 import { hexToString } from 'viem'
 import { useClient } from 'wagmi'
 
-import { encodeAbi, EncodedAbi, RecordOptions } from '@ensdomains/ensjs/utils'
+import { encodeAbi, EncodedAbi, RecordOptions } from '@y0unghe/ens.js/utils'
 
 import { textOptions } from '@app/components/@molecules/AdvancedEditor/textOptions'
 import addressOptions from '@app/components/@molecules/ProfileEditor/options/addressOptions'

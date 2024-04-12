@@ -4,7 +4,7 @@ import {
   getSubgraphRegistrant,
   GetSubgraphRegistrantParameters,
   GetSubgraphRegistrantReturnType,
-} from '@ensdomains/ensjs/subgraph'
+} from '@y0unghe/ens.js/subgraph'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns, CreateQueryKey, PartialBy, QueryConfig } from '@app/types'

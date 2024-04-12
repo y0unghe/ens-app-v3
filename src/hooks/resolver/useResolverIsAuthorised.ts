@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { encodeFunctionData, namehash } from 'viem'
 import { useConnectorClient, useEstimateGas } from 'wagmi'
 
-import { publicResolverSetAddrSnippet } from '@ensdomains/ensjs/contracts'
+import { publicResolverSetAddrSnippet } from '@y0unghe/ens.js/contracts'
 
 import { useProfile } from '@app/hooks/useProfile'
 import { emptyAddress } from '@app/utils/constants'

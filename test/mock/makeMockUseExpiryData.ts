@@ -1,6 +1,6 @@
 import { match, P } from 'ts-pattern'
 
-import { GetExpiryReturnType } from '@ensdomains/ensjs/public'
+import { GetExpiryReturnType } from '@y0unghe/ens.js/public'
 
 const mockUseExpiryTypes = ['eth', 'active', 'grace-period'] as const
 export type MockUseExpiryType = (typeof mockUseExpiryTypes)[number] | undefined

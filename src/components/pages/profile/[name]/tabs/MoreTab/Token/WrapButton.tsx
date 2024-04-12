@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
-import { GetOwnerReturnType } from '@ensdomains/ensjs/public'
-import { checkIsDecrypted } from '@ensdomains/ensjs/utils'
+import { GetOwnerReturnType } from '@y0unghe/ens.js/public'
+import { checkIsDecrypted } from '@y0unghe/ens.js/utils'
 
 import { useAccountSafely } from '@app/hooks/account/useAccountSafely'
 import { useResolverStatus } from '@app/hooks/resolver/useResolverStatus'

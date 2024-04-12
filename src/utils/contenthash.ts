@@ -1,4 +1,4 @@
-import { DecodedContentHash } from '@ensdomains/ensjs/utils'
+import { DecodedContentHash } from '@y0unghe/ens.js/utils'
 
 export type ContentHashProtocol =
   | 'ipfs'

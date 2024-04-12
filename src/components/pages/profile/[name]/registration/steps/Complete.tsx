@@ -6,7 +6,7 @@ import styled, { css } from 'styled-components'
 import { decodeEventLog } from 'viem'
 import { useAccount } from 'wagmi'
 
-import { tokenise } from '@ensdomains/ensjs/utils'
+import { tokenise } from '@y0unghe/ens.js/utils'
 import { Button, mq, Typography } from '@ensdomains/thorin'
 
 import { Invoice } from '@app/components/@atoms/Invoice/Invoice'

@@ -3,7 +3,7 @@ import { render, screen, userEvent } from '@app/test-utils'
 import { ComponentProps } from 'react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { encodeLabelhash } from '@ensdomains/ensjs/utils'
+import { encodeLabelhash } from '@y0unghe/ens.js/utils'
 
 import UnknownLabels from './UnknownLabels-flow'
 

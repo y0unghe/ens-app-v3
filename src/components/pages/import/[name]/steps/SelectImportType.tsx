@@ -3,7 +3,7 @@ import { Trans, useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount, useChainId } from 'wagmi'
 
-import { GetDnsOwnerReturnType } from '@ensdomains/ensjs/dns'
+import { GetDnsOwnerReturnType } from '@y0unghe/ens.js/dns'
 import { RadioButton, RadioButtonGroup, Tag, Typography } from '@ensdomains/thorin'
 
 import { SupportOutlink } from '@app/components/@atoms/SupportOutlink'

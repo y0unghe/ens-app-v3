@@ -5,7 +5,7 @@ import {
   GetAbiRecordReturnType,
   GetAddressRecordReturnType,
   GetContentHashRecordReturnType,
-} from '@ensdomains/ensjs/public'
+} from '@y0unghe/ens.js/public'
 
 import { useRecords } from './useRecords'
 

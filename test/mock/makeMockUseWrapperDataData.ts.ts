@@ -3,7 +3,7 @@
 import { match, P } from 'ts-pattern'
 import { Address } from 'viem'
 
-import { GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { GRACE_PERIOD } from '@app/utils/constants'
 

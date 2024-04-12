@@ -2,7 +2,7 @@ import { useQueryClient } from '@tanstack/react-query'
 import { useRef } from 'react'
 import { useForm } from 'react-hook-form'
 
-import { saveName } from '@ensdomains/ensjs/utils'
+import { saveName } from '@y0unghe/ens.js/utils'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 

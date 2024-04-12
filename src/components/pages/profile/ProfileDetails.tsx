@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { DecodedContentHash } from '@ensdomains/ensjs/utils'
+import { DecodedContentHash } from '@y0unghe/ens.js/utils'
 import { Button, Helper, mq, Typography } from '@ensdomains/thorin'
 
 import { CacheableComponent } from '@app/components/@atoms/CacheableComponent'

@@ -2,7 +2,7 @@ import { mockFunction } from '@app/test-utils'
 
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { unwrapName } from '@ensdomains/ensjs/wallet'
+import { unwrapName } from '@y0unghe/ens.js/wallet'
 
 import { ClientWithEns, ConnectorClientWithEns } from '@app/types'
 
@@ -10,7 +10,7 @@ import unwrapNameFlowTransaction from './unwrapName'
 
 vi.mock('wagmi')
 
-vi.mock('@ensdomains/ensjs/wallet')
+vi.mock('@y0unghe/ens.js/wallet')
 
 const mockUnwrapName = mockFunction(unwrapName.makeFunctionData)
 

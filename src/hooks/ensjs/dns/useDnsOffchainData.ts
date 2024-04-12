@@ -6,12 +6,12 @@ import {
   DnsNoTxtRecordError,
   DnsResponseStatusError,
   UnsupportedNameTypeError,
-} from '@ensdomains/ensjs'
+} from '@y0unghe/ens.js'
 import {
   getDnsOffchainData,
   GetDnsOffchainDataParameters,
   GetDnsOffchainDataReturnType,
-} from '@ensdomains/ensjs/dns'
+} from '@y0unghe/ens.js/dns'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns, CreateQueryKey, PartialBy, QueryConfig } from '@app/types'

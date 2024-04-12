@@ -1,4 +1,4 @@
-import { NameWithRelation } from '@ensdomains/ensjs/subgraph'
+import { NameWithRelation } from '@y0unghe/ens.js/subgraph'
 
 import type { useResolverStatus } from '@app/hooks/resolver/useResolverStatus'
 import { safeDateObj } from '@app/utils/date'

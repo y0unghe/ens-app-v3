@@ -4,7 +4,7 @@ import { cleanup, mockFunction, render, screen, userEvent, waitFor, within } fro
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { useEnsAvatar } from 'wagmi'
 
-import ensjsPackage from '@app/../node_modules/@ensdomains/ensjs/package.json'
+import ensjsPackage from '@app/../node_modules/@y0unghe/ens.js/package.json'
 import appPackage from '@app/../package.json'
 import { useContractAddress } from '@app/hooks/chain/useContractAddress'
 import { useResolverStatus } from '@app/hooks/resolver/useResolverStatus'

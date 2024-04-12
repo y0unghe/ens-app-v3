@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 
-import { ParsedInputResult, parseInput } from '@ensdomains/ensjs/utils'
+import { ParsedInputResult, parseInput } from '@y0unghe/ens.js/utils'
 
 import { Prettify } from '@app/types'
 import { tryBeautify } from '@app/utils/beautify'

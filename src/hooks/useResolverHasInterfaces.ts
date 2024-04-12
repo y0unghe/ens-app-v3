@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import type { Address } from 'viem'
 import { useChainId } from 'wagmi'
 
-import { GetSupportedInterfacesReturnType } from '@ensdomains/ensjs/public'
+import { GetSupportedInterfacesReturnType } from '@y0unghe/ens.js/public'
 
 import { getKnownResolverData } from '@app/constants/resolverAddressData'
 import { RESOLVER_INTERFACE_IDS, ResolverInterfaceName } from '@app/constants/resolverInterfaceIds'

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 
-import { GetDnsOwnerReturnType } from '@ensdomains/ensjs/dns'
+import { GetDnsOwnerReturnType } from '@y0unghe/ens.js/dns'
 
 import { useBasicName } from '@app/hooks/useBasicName'
 import { OwnerArray } from '@app/types'

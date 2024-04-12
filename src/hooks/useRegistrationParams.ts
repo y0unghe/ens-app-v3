@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Address } from 'viem'
 
-import { ChildFuseReferenceType, RegistrationParameters } from '@ensdomains/ensjs/utils'
+import { ChildFuseReferenceType, RegistrationParameters } from '@y0unghe/ens.js/utils'
 
 import { profileRecordsToRecordOptions } from '@app/components/pages/profile/[name]/registration/steps/Profile/profileRecordUtils'
 import { RegistrationReducerDataItem } from '@app/components/pages/profile/[name]/registration/types'

@@ -1,7 +1,7 @@
 import { match, P } from 'ts-pattern'
 import { Address } from 'viem'
 
-import { GetOwnerReturnType, GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType, GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { nameLevel } from '@app/utils/name'
 import { RegistrationStatus } from '@app/utils/registrationStatus'

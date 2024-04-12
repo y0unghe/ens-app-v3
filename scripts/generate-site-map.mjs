@@ -10,7 +10,7 @@ import {
 } from 'sitemap'
 import { Transform } from 'stream'
 
-import { normalise } from '@ensdomains/ensjs/utils'
+import { normalise } from '@y0unghe/ens.js/utils'
 
 const baseURL = 'https://app.ens.domains'
 const graphAPI = 'https://api.thegraph.com/subgraphs/name/ensdomains/ens'

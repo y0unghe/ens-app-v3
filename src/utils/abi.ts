@@ -1,9 +1,9 @@
 import { match, P } from 'ts-pattern'
 
-import { ClientWithEns } from '@ensdomains/ensjs/contracts'
-import { GetAbiRecordReturnType } from '@ensdomains/ensjs/dist/types/functions/public/getAbiRecord'
-import { getAbiRecord } from '@ensdomains/ensjs/public'
-import { contentTypeToEncodeAs, generateSupportedContentTypes } from '@ensdomains/ensjs/utils'
+import { ClientWithEns } from '@y0unghe/ens.js/contracts'
+import { GetAbiRecordReturnType } from '@y0unghe/ens.js/dist/types/functions/public/getAbiRecord'
+import { getAbiRecord } from '@y0unghe/ens.js/public'
+import { contentTypeToEncodeAs, generateSupportedContentTypes } from '@y0unghe/ens.js/utils'
 
 import { Profile } from '@app/types'
 

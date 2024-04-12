@@ -1,6 +1,6 @@
 import { Dispatch } from 'react'
 
-import { ChildFuseReferenceType } from '@ensdomains/ensjs/utils'
+import { ChildFuseReferenceType } from '@y0unghe/ens.js/utils'
 
 import BurnFusesContent from '@app/components/@molecules/BurnFuses/BurnFusesContent'
 import { useWrapperData } from '@app/hooks/ensjs/public/useWrapperData'

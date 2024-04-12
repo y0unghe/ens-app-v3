@@ -1,6 +1,6 @@
 import type { TFunction } from 'react-i18next'
 
-import { importDnsName, ImportDnsNameDataParameters } from '@ensdomains/ensjs/dns'
+import { importDnsName, ImportDnsNameDataParameters } from '@y0unghe/ens.js/dns'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

@@ -4,8 +4,8 @@ import {
   GetOwnerReturnType,
   GetPriceReturnType,
   GetWrapperDataReturnType,
-} from '@ensdomains/ensjs/public'
-import { ParsedInputResult } from '@ensdomains/ensjs/utils'
+} from '@y0unghe/ens.js/public'
+import { ParsedInputResult } from '@y0unghe/ens.js/utils'
 
 import { emptyAddress } from './constants'
 

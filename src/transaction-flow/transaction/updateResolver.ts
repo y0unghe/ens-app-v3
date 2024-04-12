@@ -1,7 +1,7 @@
 import type { TFunction } from 'react-i18next'
 import { Address } from 'viem'
 
-import { setResolver } from '@ensdomains/ensjs/wallet'
+import { setResolver } from '@y0unghe/ens.js/wallet'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

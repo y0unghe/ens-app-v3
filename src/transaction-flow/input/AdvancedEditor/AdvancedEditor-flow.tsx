@@ -2,7 +2,7 @@ import { useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { RecordOptions } from '@ensdomains/ensjs/utils'
+import { RecordOptions } from '@y0unghe/ens.js/utils'
 import { Button, mq } from '@ensdomains/thorin'
 
 import AddRecord from '@app/components/@molecules/AdvancedEditor/AddRecord'

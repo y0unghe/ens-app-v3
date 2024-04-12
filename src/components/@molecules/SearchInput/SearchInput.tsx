@@ -17,7 +17,7 @@ import {
   GetOwnerReturnType,
   GetPriceReturnType,
   GetWrapperDataReturnType,
-} from '@ensdomains/ensjs/public'
+} from '@y0unghe/ens.js/public'
 import { BackdropSurface, mq, Portal, Typography } from '@ensdomains/thorin'
 
 import { useLocalStorage } from '@app/hooks/useLocalStorage'

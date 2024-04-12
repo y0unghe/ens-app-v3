@@ -4,7 +4,7 @@ import {
   getDnsImportData,
   GetDnsImportDataParameters,
   GetDnsImportDataReturnType,
-} from '@ensdomains/ensjs/dns'
+} from '@y0unghe/ens.js/dns'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns, CreateQueryKey, PartialBy, QueryConfig } from '@app/types'

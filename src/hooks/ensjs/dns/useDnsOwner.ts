@@ -7,8 +7,8 @@ import {
   DnsNoTxtRecordError,
   DnsResponseStatusError,
   UnsupportedNameTypeError,
-} from '@ensdomains/ensjs'
-import { getDnsOwner, GetDnsOwnerParameters, GetDnsOwnerReturnType } from '@ensdomains/ensjs/dns'
+} from '@y0unghe/ens.js'
+import { getDnsOwner, GetDnsOwnerParameters, GetDnsOwnerReturnType } from '@y0unghe/ens.js/dns'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { CreateQueryKey, PartialBy, QueryConfig } from '@app/types'

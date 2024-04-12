@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 import { Address, isAddress } from 'viem'
 import { useChainId } from 'wagmi'
 
-import { getProtocolType } from '@ensdomains/ensjs/utils'
+import { getProtocolType } from '@y0unghe/ens.js/utils'
 import { RecordItem, Typography } from '@ensdomains/thorin'
 
 import { DynamicAddressIcon } from '@app/assets/address/DynamicAddressIcon'

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { getProtocolType } from '@ensdomains/ensjs/utils'
+import { getProtocolType } from '@y0unghe/ens.js/utils'
 
 const SUPPORTED_PROTOCOL_REGEX = /^(http|https|ar|ipfs|eip155):/
 

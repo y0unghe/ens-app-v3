@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-redeclare */
 import type { TFunction } from 'react-i18next'
 
-import { ChildFuseReferenceType, ParentFuseReferenceType } from '@ensdomains/ensjs/utils'
-import { setChildFuses, setFuses } from '@ensdomains/ensjs/wallet'
+import { ChildFuseReferenceType, ParentFuseReferenceType } from '@y0unghe/ens.js/utils'
+import { setChildFuses, setFuses } from '@y0unghe/ens.js/wallet'
 
 import { Transaction, TransactionDisplayItem, TransactionFunctionParameters } from '@app/types'
 

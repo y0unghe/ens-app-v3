@@ -1,7 +1,7 @@
 import { match, P } from 'ts-pattern'
 import { Address } from 'viem'
 
-import { GetOwnerReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType } from '@y0unghe/ens.js/public'
 
 import { createAccounts } from '../../playwright/fixtures/accounts'
 import { makeMockUseContractAddress } from './makeMockUseContractAddress'

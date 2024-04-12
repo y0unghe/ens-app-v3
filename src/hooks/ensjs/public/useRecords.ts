@@ -13,7 +13,7 @@ import {
   getRecords,
   GetRecordsParameters,
   GetRecordsReturnType,
-} from '@ensdomains/ensjs/public'
+} from '@y0unghe/ens.js/public'
 
 import { usePrefetchQuery } from '@app/hooks/usePrefetchQuery'
 import { useQueryOptions } from '@app/hooks/useQueryOptions'

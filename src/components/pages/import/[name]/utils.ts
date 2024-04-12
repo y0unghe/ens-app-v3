@@ -7,8 +7,8 @@ import {
   DnsInvalidTxtRecordError,
   DnsNoTxtRecordError,
   DnsResponseStatusError,
-} from '@ensdomains/ensjs'
-import type { GetDnsImportDataReturnType } from '@ensdomains/ensjs/dns'
+} from '@y0unghe/ens.js'
+import type { GetDnsImportDataReturnType } from '@y0unghe/ens.js/dns'
 
 import { addStateOverride } from '@app/hooks/chain/useEstimateGasWithStateOverride'
 import type { UseDnsOwnerError } from '@app/hooks/ensjs/dns/useDnsOwner'

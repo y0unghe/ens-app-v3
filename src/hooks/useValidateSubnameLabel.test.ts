@@ -3,7 +3,7 @@ import { mockFunction, renderHook } from '@app/test-utils'
 import { stringToBytes } from 'viem'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { GetOwnerReturnType, GetWrapperDataReturnType } from '@ensdomains/ensjs/public'
+import { GetOwnerReturnType, GetWrapperDataReturnType } from '@y0unghe/ens.js/public'
 
 import { DeepPartial } from '@app/types'
 import { emptyAddress } from '@app/utils/constants'

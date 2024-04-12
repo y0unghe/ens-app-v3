@@ -1,6 +1,6 @@
 import { QueryFunctionContext, useQuery } from '@tanstack/react-query'
 
-import { getResolver, GetResolverParameters, GetResolverReturnType } from '@ensdomains/ensjs/public'
+import { getResolver, GetResolverParameters, GetResolverReturnType } from '@y0unghe/ens.js/public'
 
 import { useQueryOptions } from '@app/hooks/useQueryOptions'
 import { ConfigWithEns, CreateQueryKey, PartialBy, QueryConfig } from '@app/types'

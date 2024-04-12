@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { GetSubnamesParameters } from '@ensdomains/ensjs/subgraph'
+import { GetSubnamesParameters } from '@y0unghe/ens.js/subgraph'
 import { Button, mq, PlusSVG, Spinner, Typography } from '@ensdomains/thorin'
 
 import { DisabledButtonWithTooltip } from '@app/components/@molecules/DisabledButtonWithTooltip'
